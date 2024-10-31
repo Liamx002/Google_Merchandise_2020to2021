@@ -62,7 +62,7 @@ plt.show()
 ```
 **Visualisation:**
 
-![Heatmap visualisation of null values](Images\null_values_heat_map.png)
+![Heatmap visualisation of null values](Images/null_values_heat_map.png)
 
 *Visualising location of null values within the data through a heat map*
 
@@ -76,11 +76,11 @@ Within the first section of my analysis, I focus my attention on the highest sal
 
 **Noteworthy Findings:**
 
-![Overall Sales](Images\total_sales_overall.png)
+![Overall Sales](Images/total_sales_overall.png)
 
 *Trend in total sales over the period under analysis.*
 
-![Leading Countries](Images\leading_countries_sales.png)
+![Leading Countries](Images/leading_countries_sales.png)
 
 *Countries with the most sales made by the Google Merchandise Store.*
 
@@ -109,7 +109,7 @@ plt.show()
 ```
 **Visualisation:**
 
-![Brand Analysis](Images\brand_rep.png)
+![Brand Analysis](Images/brand_rep.png)
 
 #### **Insights:** 
 - The leading brand within the Google Merchandise store is Google, attaining sales share roughly equivalent to three quarters of the total sales.
@@ -135,7 +135,7 @@ sns.despine()
 ```
 **Visualisation:**
 
-![Category Total](Images\category_sales_count.png)
+![Category Total](Images/category_sales_count.png)
 
 #### **Insights:**
 - Apparel is by far the most popular category in the number of total sales, amassing around 200,000 more sales than the second highest category.
@@ -146,7 +146,7 @@ Using a histplot, I seek to find out the average price that consumers pay for Ap
 
 **Visualisation:**
 
-![Histogram](Images\hist_cat.png)
+![Histogram](Images/hist_cat.png)
 
 #### **Insights:**
 - On average, it appears that the average price for merchandise in the apparel category is around 10 to 60 dollars.
@@ -170,7 +170,7 @@ dfc_pivot = dfc_pivot.set_index('month_no')
 ```
 **Visualisation:**
 
-![Top 5 category tot over time](Images\top_5_cat.png)
+![Top 5 category tot over time](Images/top_5_cat.png)
 
 *Change in total sales for the top 5 categories over the three months.*
 
@@ -183,7 +183,7 @@ I then look into this change in the relative share of total sales over this time
 
 **Visualisation:**
 
-![Top 5 cat share](Images\percent_total_share.png)
+![Top 5 cat share](Images/percent_total_share.png)
 
 *Change in top 5 categories percentage share of total sales over time*
 
@@ -210,11 +210,11 @@ sns.barplot(df_rbctop, x='name', y='revenue', ax=ax[2], hue='category', palette=
 ```
 **Visualisations:**
 
-![Top merch](Images\high_rev_merch.png)
+![Top merch](Images/high_rev_merch.png)
 
 *Highest revenue generating merchandise, shown first by revenue generated, followed by the merchandises brand and category association.*
 
-![Bot merch](Images\low_rev_merch.png)
+![Bot merch](Images/low_rev_merch.png)
 
 *Lowest revenue generating merchandise, shown first by revenue generated, followed by the merchandises brand and category association.*
 
